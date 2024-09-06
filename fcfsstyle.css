@@ -1,0 +1,102 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+input[type="number"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 80px;
+    font-size: 1.1em;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.1em;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+marquee{
+	color:red;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+td input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+	background:none;
+}
+
+td[id^="ct"], td[id^="tat"], td[id^="wt"] {
+    background-color: #ecf0f1;
+    font-weight: bold;
+    border: 1px solid #ddd;
+}
+
+.
+h3 {
+    margin-top: 30px;
+    color: #4a4a4a;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 1.2em;
+    color: green;
+}
